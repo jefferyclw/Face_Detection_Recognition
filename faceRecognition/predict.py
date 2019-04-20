@@ -1,4 +1,4 @@
-from __future__ import absolute_import
+﻿from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 import cv2
@@ -61,6 +61,8 @@ def compare_embadding(pred_emb, dataset_emb, names_list):
         else:
             pred_name.append(names_list[dist_list.index(min_value)])
     return pred_name
+
+#test for clw
 
 if __name__=='__main__':
     model_path='models/20180408-102900'
